@@ -2,11 +2,38 @@ div{
     padding-bottom: 15px;
 }
 
-body {
-    text-align: center;
+label {
+    margin-left: 15px;
+    font-weight: bold;
+    color: darkcyan;
+}
+
+#egesz {
+    background-color: green;
+    width: 600px;
+    height: 800px;
+    margin: auto;
+}
+
+#kicsiegesz {
+    background-color: lightblue;
+    width: 240px;
+    border-radius: 25px;
+    margin: auto;
 }
 
 input {
     height: 20px;
-    width: 230px;
+    width: 220px;
+    margin-left: 10px;
+}
+
+#fizetesgomb {
+    width: 120px;
+    height: 30px;
+    font-weight: bold;
+    margin-left: 60px;
+    border-radius: 5px;
+    border: 2px solid grey;
+    background-color: white;
 }
